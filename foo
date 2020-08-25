@@ -1,0 +1,13 @@
+A | B | C
+--+---+--
+D | E | F
+--+---+--
+G | H | I
+
+Players: Bob   Jill
+  Host: Tom
+
+
+1. WebRTC Webcam+Audio
+2. Layout/reactism/magic
+3. Connect to third-party trivia api?
