@@ -1,18 +1,11 @@
 import React from 'react';
+import VehiklSquare from './VehiklSquare';
 
 function VehiklSquares(){
 
   return(
     <div className="grid grid-flow-col grid-cols-3 grid-rows-3 gap-3">
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
-      <div data-testid="cell">taco</div>
+      {Array.from({length: 9}, (_, index) => <VehiklSquare key={index} />)}
     </div>
   ) 
 
