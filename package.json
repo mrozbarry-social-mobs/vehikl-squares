@@ -84,6 +84,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "gitpair": "^1.5.1",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.7.3"
   },
